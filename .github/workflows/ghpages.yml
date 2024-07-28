@@ -1,6 +1,8 @@
 name: Deploy
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:  # This allows manual triggering
 
 jobs:
   build:
